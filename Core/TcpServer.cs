@@ -77,7 +77,7 @@ public class TcpServer
 
                     while (true)
                     {
-                        await Task.Delay(10);
+                        await Task.Delay(1);
 
                         lock (_lck)
                         {
